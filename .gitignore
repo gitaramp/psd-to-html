@@ -1,0 +1,9 @@
+# Project dependencies
+kapora/.cache
+kapora/node_modules
+kapora/yarn-error.log
+
+# Build directory
+kapora/public
+kapora/.DS_Store
+kapora2

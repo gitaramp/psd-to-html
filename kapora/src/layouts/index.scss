@@ -1,0 +1,189 @@
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/functions.sass";
+@import "~bulma/sass/utilities/derived-variables.sass";
+@import "./utils.scss";
+@import "~bulma/bulma.sass";
+
+$navbar-item-color: #000;
+$navbar-item-hover-color: #fff;
+$h2-first-color: #aab9ff;
+$h2-second-color: #fff;
+$icon-color: #5bbbff;
+
+
+.navbar {
+    padding: 8px 70px;
+    a.navbar-item {
+        font-size: 1.5rem;
+        &:hover {
+            background: none;
+        }
+    }
+}
+
+.is-centered {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+    padding: 0;
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.page-header {
+    background: url('../img/header-slider.jpg');
+    height: 330px;
+    h1 {
+        color: #fff;
+        word-spacing: .4rem;
+        font-size: 2.1rem;
+        line-height: 45px;
+        text-shadow: 2px 2px 5px #000;
+    }
+    button {
+        margin-top: 10px;
+        font-weight: 100;
+        padding: 0 20px;
+        border-radius: 0;
+        box-shadow: 2px 2px 8px #000;
+    }
+}
+
+.offer-section {
+    margin-top: 25px;
+    h2 {
+        color: $h2-first-color;
+        padding-bottom: 0;
+    }
+    h3 {
+        padding: 0;
+        font-weight: 300;
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+    }
+    .offer-column {
+        margin: 0px 2rem;
+        box-shadow: 4px 4px 16px -12px #000;
+        .offer-text, .offer-icon {
+            display: flex;
+            align-items: center;
+        }       
+        .offer-icon {
+            padding-right: 0;
+            font-size: 4rem;
+            color: $icon-color;
+        }
+        .offer-text {
+            padding-left: 5px;
+        }
+        p {
+            font-weight: 100;
+            font-size: 1.2rem;  
+            text-align: left;
+        }
+    }
+}
+
+.realization-section {
+    margin-top: 140px;
+    background: #f9c16a;
+    transform: skewY(-1deg);
+    padding-bottom: 200px;
+    .context {
+        width: 100%;
+        height: 100%;
+        transform: skewY(1deg);
+        h2 {
+            color: $h2-second-color;
+        }
+        .list-box {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            background: linear-gradient(90deg, transparent 5%, rgba(212, 112, 61, 0.59) 10%, transparent 95%);
+            .list-number, .list-text {
+                color: #fff;
+                text-shadow: 0 1px 2px #000;
+            }
+            .list-number {
+                border-radius: 100%;
+                width: 6rem;
+                padding: .6rem;
+                background-image: radial-gradient(circle closest-side, #e46e35, #b65a2f);
+                border: 7px solid #d67340;
+                font: 2rem Arial, sans-serif;
+                text-shadow: 0 1px 2px #000;
+            }
+            .list-text {
+                padding-left: 10px;
+                text-align: left;
+                font-size: 1.05rem;
+            }
+        }
+    }
+}
+
+.portfolio-section {
+    margin-top: 40px;
+    h2 {
+        color: $h2-first-color;
+    }
+}
+
+.contact-section {
+    margin: 80px 0 0 0 !important;
+    background: #1096eb;
+    height: 500px;
+    h2 {
+        color: $h2-second-color;
+    }
+}
+
+.footer-section {
+    background: #106ceb;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+}
+
+// 2. Set your own initial variables
+// Update blue
+// $blue: #72d0eb;
+// Add pink and its invert
+// $pink: #ffb3b3;
+// $pink-invert: #fff;
+// Add a serif family
+// $family-serif: "Merriweather", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+// $primary: $pink;
+// $primary-invert: $pink-invert;
+// Use the existing orange as the danger color
+// $danger: $orange;
+// Use the new serif family
+// $family-primary: $family-serif;
+
+// 4. Setup your Custom Colors
+// $linkedin: #0077b5;
+// $linkedin-invert: findColorInvert($linkedin);
+// $twitter: #55acee;
+// $twitter-invert: findColorInvert($twitter);
+// $github: #333;
+// $github-invert: findColorInvert($github);
+
+// 5. Add new color variables to the color map.
+
+// $addColors: (
+//   "twitter":($twitter, $twitter-invert),
+//   "linkedin": ($linkedin, $linkedin-invert),
+//   "github": ($github, $github-invert)
+// );
+// $colors: map-merge($colors, $addColors);
+
+

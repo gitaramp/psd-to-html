@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import { FaMobileAlt, FaCheckSquare, FaHandshake, FaPenSquare, FaCalendarCheck, FaChartBar } from 'react-icons/fa';
 
 
 const Offer = () => (
-  <div className="container">
-    <section className="offer-section columns is-multiline is-centered">
+  <div className="container" id="offer-tab">
+    <section className="offer-section columns is-multiline centered">
       <h2 className="column is-full">
         Oferta
       </h2>

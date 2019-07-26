@@ -1,0 +1,570 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-reveal',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.9
+3 info using node@v11.9.0
+4 warn package.json gatsby-bulma-default@1.0.0 No README data
+5 warn package.json babel-plugin-add-module-exports@0.2.1 No README data
+6 warn package.json copy-descriptor@0.1.1 No README data
+7 warn package.json dom-serializer@0.1.0 No README data
+8 warn package.json findup-sync@0.4.2 No README data
+9 warn package.json get-value@2.0.6 No README data
+10 warn package.json jsesc@1.3.0 No README data
+11 warn package.json jspm-github@0.14.13 No README data
+12 warn package.json jspm-npm@0.30.4 No README data
+13 warn package.json jspm-registry@0.4.4 No README data
+14 warn package.json object-copy@0.1.0 No README data
+15 warn package.json path-is-inside@1.0.2 No README data
+16 warn package.json postcss-apply@0.3.0 No README data
+17 warn package.json relay-compiler@1.4.1 No README data
+18 warn package.json relay-runtime@1.4.1 No README data
+19 warn package.json setimmediate@1.0.5 No README data
+20 warn package.json signedsource@1.0.0 No repository field.
+21 warn package.json signedsource@1.0.0 No README data
+22 warn package.json static-extend@0.1.2 No README data
+23 warn package.json assert@1.4.1 assert is also the name of a node core module.
+24 warn package.json bcrypt-pbkdf@1.0.1 No repository field.
+25 warn package.json browser-monads@1.0.0 No repository field.
+26 warn package.json callsite@1.0.0 No repository field.
+27 warn package.json events@1.1.1 events is also the name of a node core module.
+28 warn package.json create-error-class@3.0.2 keywords should be an array of strings
+29 warn package.json indexof@0.0.1 No repository field.
+30 warn package.json has-binary2@1.0.3 No repository field.
+31 warn package.json object-component@0.0.3 No repository field.
+32 warn package.json postcss-custom-media@5.0.1 scripts['tests'] should probably be scripts['test'].
+33 warn package.json punycode@1.4.1 punycode is also the name of a node core module.
+34 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+35 warn package.json relay-debugger-react-native-runtime@0.0.10 No repository field.
+36 warn package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+37 warn package.json url@0.11.0 url is also the name of a node core module.
+38 warn package.json util@0.10.3 util is also the name of a node core module.
+39 warn package.json v8-compile-cache@1.1.2 No repository field.
+40 warn package.json is-retry-allowed@1.1.0 keywords should be an array of strings
+41 warn package.json buffer@4.9.1 buffer is also the name of a node core module.
+42 verbose readDependencies using package.json deps
+43 verbose cache add [ 'react-reveal', null ]
+44 verbose cache add name=undefined spec="react-reveal" args=["react-reveal",null]
+45 verbose parsed url Url {
+45 verbose parsed url   protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'react-reveal',
+45 verbose parsed url   path: 'react-reveal',
+45 verbose parsed url   href: 'react-reveal' }
+46 silly lockFile 8a6eabc5-react-reveal react-reveal
+47 verbose lock react-reveal C:\Users\Michał\AppData\Roaming\npm-cache\8a6eabc5-react-reveal.lock
+48 silly lockFile 8a6eabc5-react-reveal react-reveal
+49 silly lockFile 8a6eabc5-react-reveal react-reveal
+50 verbose addNamed [ 'react-reveal', '' ]
+51 verbose addNamed [ null, '*' ]
+52 silly lockFile 2ebd9161-react-reveal react-reveal@
+53 verbose lock react-reveal@ C:\Users\Michał\AppData\Roaming\npm-cache\2ebd9161-react-reveal.lock
+54 silly addNameRange { name: 'react-reveal', range: '*', hasData: false }
+55 verbose url raw react-reveal
+56 verbose url resolving [ 'https://registry.npmjs.org/', './react-reveal' ]
+57 verbose url resolved https://registry.npmjs.org/react-reveal
+58 info trying registry request attempt 1 at 2:11:19 PM
+59 http GET https://registry.npmjs.org/react-reveal
+60 http 200 https://registry.npmjs.org/react-reveal
+61 silly registry.get cb [ 200,
+61 silly registry.get   { date: 'Fri, 26 Jul 2019 12:11:19 GMT',
+61 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+61 silly registry.get     'transfer-encoding': 'chunked',
+61 silly registry.get     connection: 'close',
+61 silly registry.get     'set-cookie':
+61 silly registry.get      [ '__cfduid=ddf5d8fc29cffe89270b3bf15facec6451564143079; expires=Sat, 25-Jul-20 12:11:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+61 silly registry.get     'cf-cache-status': 'HIT',
+61 silly registry.get     'cache-control': 'max-age=300',
+61 silly registry.get     'cf-ray': '4fc64688ce376af9-WAW',
+61 silly registry.get     age: '5146',
+61 silly registry.get     etag: 'W/"5c2fe6776629624f02cc551ca4c3a654"',
+61 silly registry.get     'expect-ct':
+61 silly registry.get      'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+61 silly registry.get     'last-modified': 'Sun, 27 May 2018 15:07:27 GMT',
+61 silly registry.get     vary: 'accept-encoding, accept',
+61 silly registry.get     server: 'cloudflare',
+61 silly registry.get     'content-encoding': 'gzip' } ]
+62 silly addNameRange number 2 { name: 'react-reveal', range: '*', hasData: true }
+63 silly addNameRange versions [ 'react-reveal',
+63 silly addNameRange   [ '0.0.1',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '0.1.1',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '0.2.1',
+63 silly addNameRange     '0.2.2',
+63 silly addNameRange     '0.3.0',
+63 silly addNameRange     '0.3.1',
+63 silly addNameRange     '0.3.2',
+63 silly addNameRange     '0.3.3',
+63 silly addNameRange     '0.3.4',
+63 silly addNameRange     '0.4.0',
+63 silly addNameRange     '0.4.1',
+63 silly addNameRange     '0.4.2',
+63 silly addNameRange     '0.5.0',
+63 silly addNameRange     '0.5.1',
+63 silly addNameRange     '0.6.0',
+63 silly addNameRange     '0.6.1',
+63 silly addNameRange     '0.6.2',
+63 silly addNameRange     '0.7.0',
+63 silly addNameRange     '0.7.1',
+63 silly addNameRange     '0.7.2-beta',
+63 silly addNameRange     '0.7.2-beta2',
+63 silly addNameRange     '0.7.2-beta3',
+63 silly addNameRange     '0.7.2',
+63 silly addNameRange     '0.7.3-beta.1',
+63 silly addNameRange     '0.7.3',
+63 silly addNameRange     '0.7.4-beta.1',
+63 silly addNameRange     '0.7.4-beta.2',
+63 silly addNameRange     '1.0.0-beta.1',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '1.0.1',
+63 silly addNameRange     '1.0.2',
+63 silly addNameRange     '1.1.0',
+63 silly addNameRange     '1.1.1',
+63 silly addNameRange     '1.1.2',
+63 silly addNameRange     '1.1.3',
+63 silly addNameRange     '1.1.4',
+63 silly addNameRange     '1.1.5',
+63 silly addNameRange     '1.1.6-beta.1',
+63 silly addNameRange     '1.1.6-beta.2',
+63 silly addNameRange     '1.1.6-beta.3',
+63 silly addNameRange     '1.1.6',
+63 silly addNameRange     '1.1.7',
+63 silly addNameRange     '1.1.8',
+63 silly addNameRange     '1.1.9-beta.1',
+63 silly addNameRange     '1.1.9',
+63 silly addNameRange     '1.1.10',
+63 silly addNameRange     '1.2.0-beta.1',
+63 silly addNameRange     '1.2.0-beta.2',
+63 silly addNameRange     '1.2.0-beta.3',
+63 silly addNameRange     '1.1.11',
+63 silly addNameRange     '1.2.0',
+63 silly addNameRange     '1.2.1',
+63 silly addNameRange     '1.2.2-beta.1',
+63 silly addNameRange     '1.2.2' ] ]
+64 verbose addNamed [ 'react-reveal', '1.2.2' ]
+65 verbose addNamed [ '1.2.2', '1.2.2' ]
+66 silly lockFile ab5b7525-react-reveal-1-2-2 react-reveal@1.2.2
+67 verbose lock react-reveal@1.2.2 C:\Users\Michał\AppData\Roaming\npm-cache\ab5b7525-react-reveal-1-2-2.lock
+68 silly lockFile 8ffb071b-ct-reveal-react-reveal-1-2-2-tgz https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz
+69 verbose lock https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz C:\Users\Michał\AppData\Roaming\npm-cache\8ffb071b-ct-reveal-react-reveal-1-2-2-tgz.lock
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz',
+70 verbose addRemoteTarball   'f47fbc44debc4c185ae2163a215a9e822c7adfef' ]
+71 info retry fetch attempt 1 at 2:11:20 PM
+72 verbose fetch to= C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz
+73 http GET https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz
+74 http 200 https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz
+75 verbose tar unpack C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz
+76 silly lockFile 6f45673d-cache-react-reveal-1-2-2-package tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package
+77 verbose lock tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package C:\Users\Michał\AppData\Roaming\npm-cache\6f45673d-cache-react-reveal-1-2-2-package.lock
+78 silly lockFile 2e906801-80036-0-5069330804843657-tmp-tgz tar://C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz
+79 verbose lock tar://C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz C:\Users\Michał\AppData\Roaming\npm-cache\2e906801-80036-0-5069330804843657-tmp-tgz.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+83 silly gunzTarPerm extractEntry .editorconfig
+84 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+85 silly gunzTarPerm extractEntry Animation.js
+86 silly gunzTarPerm modified mode [ 'Animation.js', 436, 420 ]
+87 silly gunzTarPerm extractEntry Bounce.js
+88 silly gunzTarPerm modified mode [ 'Bounce.js', 436, 420 ]
+89 silly gunzTarPerm extractEntry debounce.js
+90 silly gunzTarPerm modified mode [ 'debounce.js', 436, 420 ]
+91 silly gunzTarPerm extractEntry Fade.js
+92 silly gunzTarPerm modified mode [ 'Fade.js', 436, 420 ]
+93 silly gunzTarPerm extractEntry Flash.js
+94 silly gunzTarPerm modified mode [ 'Flash.js', 436, 420 ]
+95 silly gunzTarPerm extractEntry Flip.js
+96 silly gunzTarPerm modified mode [ 'Flip.js', 436, 420 ]
+97 silly gunzTarPerm extractEntry globals.js
+98 silly gunzTarPerm modified mode [ 'globals.js', 436, 420 ]
+99 silly gunzTarPerm extractEntry hamburger.js
+100 silly gunzTarPerm modified mode [ 'hamburger.js', 436, 420 ]
+101 silly gunzTarPerm extractEntry HamburgerIcon.js
+102 silly gunzTarPerm modified mode [ 'HamburgerIcon.js', 436, 420 ]
+103 silly gunzTarPerm extractEntry HeadShake.js
+104 silly gunzTarPerm modified mode [ 'HeadShake.js', 436, 420 ]
+105 silly gunzTarPerm extractEntry index.js
+106 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+107 silly gunzTarPerm extractEntry Jello.js
+108 silly gunzTarPerm modified mode [ 'Jello.js', 436, 420 ]
+109 silly gunzTarPerm extractEntry Jump.js
+110 silly gunzTarPerm modified mode [ 'Jump.js', 436, 420 ]
+111 silly gunzTarPerm extractEntry LICENSE.txt
+112 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 420 ]
+113 silly gunzTarPerm extractEntry LightSpeed.js
+114 silly gunzTarPerm modified mode [ 'LightSpeed.js', 436, 420 ]
+115 silly gunzTarPerm extractEntry makeCarousel.js
+116 silly gunzTarPerm modified mode [ 'makeCarousel.js', 436, 420 ]
+117 silly gunzTarPerm extractEntry Pulse.js
+118 silly gunzTarPerm modified mode [ 'Pulse.js', 436, 420 ]
+119 silly gunzTarPerm extractEntry README.md
+120 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+121 silly gunzTarPerm extractEntry responsive.js
+122 silly gunzTarPerm modified mode [ 'responsive.js', 436, 420 ]
+123 silly gunzTarPerm extractEntry Reveal.js
+124 silly gunzTarPerm modified mode [ 'Reveal.js', 436, 420 ]
+125 silly gunzTarPerm extractEntry RevealBase.js
+126 silly gunzTarPerm modified mode [ 'RevealBase.js', 436, 420 ]
+127 silly gunzTarPerm extractEntry Roll.js
+128 silly gunzTarPerm modified mode [ 'Roll.js', 436, 420 ]
+129 silly gunzTarPerm extractEntry Rotate.js
+130 silly gunzTarPerm modified mode [ 'Rotate.js', 436, 420 ]
+131 silly gunzTarPerm extractEntry RubberBand.js
+132 silly gunzTarPerm modified mode [ 'RubberBand.js', 436, 420 ]
+133 silly gunzTarPerm extractEntry Shake.js
+134 silly gunzTarPerm modified mode [ 'Shake.js', 436, 420 ]
+135 silly gunzTarPerm extractEntry Slide.js
+136 silly gunzTarPerm modified mode [ 'Slide.js', 436, 420 ]
+137 silly gunzTarPerm extractEntry Spin.js
+138 silly gunzTarPerm modified mode [ 'Spin.js', 436, 420 ]
+139 silly gunzTarPerm extractEntry Step.js
+140 silly gunzTarPerm modified mode [ 'Step.js', 436, 420 ]
+141 silly gunzTarPerm extractEntry Stepper.js
+142 silly gunzTarPerm modified mode [ 'Stepper.js', 436, 420 ]
+143 silly gunzTarPerm extractEntry Swing.js
+144 silly gunzTarPerm modified mode [ 'Swing.js', 436, 420 ]
+145 silly gunzTarPerm extractEntry swipedetect.js
+146 silly gunzTarPerm modified mode [ 'swipedetect.js', 436, 420 ]
+147 silly gunzTarPerm extractEntry Tada.js
+148 silly gunzTarPerm modified mode [ 'Tada.js', 436, 420 ]
+149 silly gunzTarPerm extractEntry throttle.js
+150 silly gunzTarPerm modified mode [ 'throttle.js', 436, 420 ]
+151 silly gunzTarPerm extractEntry withReveal.js
+152 silly gunzTarPerm modified mode [ 'withReveal.js', 436, 420 ]
+153 silly gunzTarPerm extractEntry Wobble.js
+154 silly gunzTarPerm modified mode [ 'Wobble.js', 436, 420 ]
+155 silly gunzTarPerm extractEntry wrap.js
+156 silly gunzTarPerm modified mode [ 'wrap.js', 436, 420 ]
+157 silly gunzTarPerm extractEntry Zoom.js
+158 silly gunzTarPerm modified mode [ 'Zoom.js', 436, 420 ]
+159 silly gunzTarPerm extractEntry src/Animation.js
+160 silly gunzTarPerm modified mode [ 'src/Animation.js', 436, 420 ]
+161 silly gunzTarPerm extractEntry src/in-and-out/Bounce.js
+162 silly gunzTarPerm modified mode [ 'src/in-and-out/Bounce.js', 436, 420 ]
+163 silly gunzTarPerm extractEntry src/in-and-out/Fade.js
+164 silly gunzTarPerm modified mode [ 'src/in-and-out/Fade.js', 436, 420 ]
+165 silly gunzTarPerm extractEntry src/in-and-out/Flip.js
+166 silly gunzTarPerm modified mode [ 'src/in-and-out/Flip.js', 436, 420 ]
+167 silly gunzTarPerm extractEntry src/in-and-out/LightSpeed.js
+168 silly gunzTarPerm modified mode [ 'src/in-and-out/LightSpeed.js', 436, 420 ]
+169 silly gunzTarPerm extractEntry src/in-and-out/Roll.js
+170 silly gunzTarPerm modified mode [ 'src/in-and-out/Roll.js', 436, 420 ]
+171 silly gunzTarPerm extractEntry src/in-and-out/Rotate.js
+172 silly gunzTarPerm modified mode [ 'src/in-and-out/Rotate.js', 436, 420 ]
+173 silly gunzTarPerm extractEntry src/in-and-out/Slide.js
+174 silly gunzTarPerm modified mode [ 'src/in-and-out/Slide.js', 436, 420 ]
+175 silly gunzTarPerm extractEntry src/in-and-out/Zoom.js
+176 silly gunzTarPerm modified mode [ 'src/in-and-out/Zoom.js', 436, 420 ]
+177 silly gunzTarPerm extractEntry src/lib/debounce.js
+178 silly gunzTarPerm modified mode [ 'src/lib/debounce.js', 436, 420 ]
+179 silly gunzTarPerm extractEntry src/lib/globals.js
+180 silly gunzTarPerm modified mode [ 'src/lib/globals.js', 436, 420 ]
+181 silly gunzTarPerm extractEntry src/lib/hamburger.js
+182 silly gunzTarPerm modified mode [ 'src/lib/hamburger.js', 436, 420 ]
+183 silly gunzTarPerm extractEntry src/lib/HamburgerIcon.js
+184 silly gunzTarPerm modified mode [ 'src/lib/HamburgerIcon.js', 436, 420 ]
+185 silly gunzTarPerm extractEntry src/lib/index.js
+186 silly gunzTarPerm modified mode [ 'src/lib/index.js', 436, 420 ]
+187 silly gunzTarPerm extractEntry src/lib/makeCarousel.js
+188 silly gunzTarPerm modified mode [ 'src/lib/makeCarousel.js', 436, 420 ]
+189 silly gunzTarPerm extractEntry src/lib/responsive.js
+190 silly gunzTarPerm modified mode [ 'src/lib/responsive.js', 436, 420 ]
+191 silly gunzTarPerm extractEntry src/lib/Step.js
+192 silly gunzTarPerm modified mode [ 'src/lib/Step.js', 436, 420 ]
+193 silly gunzTarPerm extractEntry src/lib/Stepper.js
+194 silly gunzTarPerm modified mode [ 'src/lib/Stepper.js', 436, 420 ]
+195 silly gunzTarPerm extractEntry src/lib/swipedetect.js
+196 silly gunzTarPerm modified mode [ 'src/lib/swipedetect.js', 436, 420 ]
+197 silly gunzTarPerm extractEntry src/lib/throttle.js
+198 silly gunzTarPerm modified mode [ 'src/lib/throttle.js', 436, 420 ]
+199 silly gunzTarPerm extractEntry src/lib/withReveal.js
+200 silly gunzTarPerm modified mode [ 'src/lib/withReveal.js', 436, 420 ]
+201 silly gunzTarPerm extractEntry src/lib/wrap.js
+202 silly gunzTarPerm modified mode [ 'src/lib/wrap.js', 436, 420 ]
+203 silly gunzTarPerm extractEntry src/Reveal.js
+204 silly gunzTarPerm modified mode [ 'src/Reveal.js', 436, 420 ]
+205 silly gunzTarPerm extractEntry src/RevealBase.js
+206 silly gunzTarPerm modified mode [ 'src/RevealBase.js', 436, 420 ]
+207 silly gunzTarPerm extractEntry src/simple/Flash.js
+208 silly gunzTarPerm modified mode [ 'src/simple/Flash.js', 436, 420 ]
+209 silly gunzTarPerm extractEntry src/simple/HeadShake.js
+210 silly gunzTarPerm modified mode [ 'src/simple/HeadShake.js', 436, 420 ]
+211 silly gunzTarPerm extractEntry src/simple/Jello.js
+212 silly gunzTarPerm modified mode [ 'src/simple/Jello.js', 436, 420 ]
+213 silly gunzTarPerm extractEntry src/simple/Jump.js
+214 silly gunzTarPerm modified mode [ 'src/simple/Jump.js', 436, 420 ]
+215 silly gunzTarPerm extractEntry src/simple/Pulse.js
+216 silly gunzTarPerm modified mode [ 'src/simple/Pulse.js', 436, 420 ]
+217 silly gunzTarPerm extractEntry src/simple/RubberBand.js
+218 silly gunzTarPerm modified mode [ 'src/simple/RubberBand.js', 436, 420 ]
+219 silly gunzTarPerm extractEntry src/simple/Shake.js
+220 silly gunzTarPerm modified mode [ 'src/simple/Shake.js', 436, 420 ]
+221 silly gunzTarPerm extractEntry src/simple/Spin.js
+222 silly gunzTarPerm modified mode [ 'src/simple/Spin.js', 436, 420 ]
+223 silly gunzTarPerm extractEntry src/simple/Swing.js
+224 silly gunzTarPerm modified mode [ 'src/simple/Swing.js', 436, 420 ]
+225 silly gunzTarPerm extractEntry src/simple/Tada.js
+226 silly gunzTarPerm modified mode [ 'src/simple/Tada.js', 436, 420 ]
+227 silly gunzTarPerm extractEntry src/simple/Wobble.js
+228 silly gunzTarPerm modified mode [ 'src/simple/Wobble.js', 436, 420 ]
+229 silly lockFile 6f45673d-cache-react-reveal-1-2-2-package tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package
+230 silly lockFile 6f45673d-cache-react-reveal-1-2-2-package tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package
+231 silly lockFile 2e906801-80036-0-5069330804843657-tmp-tgz tar://C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz
+232 silly lockFile 2e906801-80036-0-5069330804843657-tmp-tgz tar://C:\Users\Michał\AppData\Local\Temp\npm-2060-E_qfPJUc\1564143080036-0.5069330804843657\tmp.tgz
+233 silly lockFile 8ffb071b-ct-reveal-react-reveal-1-2-2-tgz https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz
+234 silly lockFile 8ffb071b-ct-reveal-react-reveal-1-2-2-tgz https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz
+235 silly lockFile ab5b7525-react-reveal-1-2-2 react-reveal@1.2.2
+236 silly lockFile ab5b7525-react-reveal-1-2-2 react-reveal@1.2.2
+237 silly lockFile 2ebd9161-react-reveal react-reveal@
+238 silly lockFile 2ebd9161-react-reveal react-reveal@
+239 silly resolved [ { name: 'react-reveal',
+239 silly resolved     version: '1.2.2',
+239 silly resolved     author: { name: 'Roman Nosov', email: 'rnosov@gmail.com' },
+239 silly resolved     description:
+239 silly resolved      'Really simple way to add reveal on scroll animation to your React app.',
+239 silly resolved     license: 'MIT',
+239 silly resolved     keywords: [ 'react', 'reveal', 'reactreveal', 'scroll' ],
+239 silly resolved     repository:
+239 silly resolved      { type: 'git', url: 'https://github.com/rnosov/react-reveal' },
+239 silly resolved     bugs: { url: 'https://github.com/rnosov/react-reveal/issues' },
+239 silly resolved     homepage: 'https://www.react-reveal.com',
+239 silly resolved     main: './index.js',
+239 silly resolved     dependencies: { 'prop-types': '^15.5.10' },
+239 silly resolved     peerDependencies: { react: '^15.3.0 || ^16.0.0' },
+239 silly resolved     devDependencies:
+239 silly resolved      { 'babel-cli': '^6.14.0',
+239 silly resolved        'babel-core': '^6.11.4',
+239 silly resolved        'babel-jest': '^15.0.0',
+239 silly resolved        'babel-plugin-add-module-exports': '^0.2.1',
+239 silly resolved        'babel-plugin-react-transform': '^2.0.2',
+239 silly resolved        'babel-plugin-transform-runtime': '^6.12.0',
+239 silly resolved        'babel-preset-es2015': '^6.9.0',
+239 silly resolved        'babel-preset-react': '^6.5.0',
+239 silly resolved        'babel-preset-stage-0': '^6.5.0',
+239 silly resolved        enzyme: '^3.1.0',
+239 silly resolved        'enzyme-adapter-react-16': '^1.1.1',
+239 silly resolved        gulp: '^3.9.1',
+239 silly resolved        'gulp-babel': '^6.1.2',
+239 silly resolved        'gulp-clean': '^0.3.2',
+239 silly resolved        'gulp-flatten': '^0.3.1',
+239 silly resolved        'gulp-replace': '^0.6.1',
+239 silly resolved        'gulp-uglify': '^2.0.0',
+239 silly resolved        jest: '^22.1.4',
+239 silly resolved        'jest-cli': '^22.4.3',
+239 silly resolved        react: '^16.2.0',
+239 silly resolved        'react-dom': '^16.2.0',
+239 silly resolved        'react-test-renderer': '^16.2.0',
+239 silly resolved        'uglify-js': '^2.7.3' },
+239 silly resolved     scripts:
+239 silly resolved      { build: './node_modules/gulp/bin/gulp.js build',
+239 silly resolved        test: 'jest .',
+239 silly resolved        prepare: 'npm run build && npm run test -- -u;',
+239 silly resolved        clean: './node_modules/gulp/bin/gulp.js clean' },
+239 silly resolved     readme:
+239 silly resolved      '# React Reveal\n\n[React Reveal](https://www.react-reveal.com/) is\nan animation framework for React. It\'s MIT licensed, has a tiny footprint\nand written specifically for React in ES6. It can be used to create various cool reveal\non scroll animations in your application.\nIf you liked this package, don\'t forget to star\nthe [Github repository](https://github.com/rnosov/react-reveal).\n\n## Live Examples\n\nA number of simple effect examples:\n- [Fade](https://www.react-reveal.com/examples/common/fade/)\n- [Flip](https://www.react-reveal.com/examples/common/flip/)\n- [Rotate](https://www.react-reveal.com/examples/common/rotate/)\n- [Zoom](https://www.react-reveal.com/examples/common/zoom/)\n- [Bounce](https://www.react-reveal.com/examples/common/bounce/)\n- [Roll](https://www.react-reveal.com/examples/common/roll/)\n\nAlso, there are more complicated examples of [animated form errors](https://www.react-reveal.com/examples/advanced/form/) and a [todo app](https://www.react-reveal.com/examples/advanced/todo/).\n\n## Search Engine Visibility \n\n`react-reveal` is regularly checked against googlebot in the Google Search Console to make sure that googlebot can see the content in the revealed elements. \n\n## Full Documentation\n\nFor a full documentation please visit [online docs](https://www.react-reveal.com/docs/).\n\n## Installation\n\nIn the command prompt run:\n\n```sh\nnpm install react-reveal --save\n```\n\nAlternatively you may use `yarn`:\n\n```sh\nyarn add react-reveal\n```\n\n## Quick Start\n\nImport effects from [React Reveal](https://www.npmjs.com/package/react-reveal) to your project. Lets try `Zoom` effect first:\n\n```javascript\nimport Zoom from \'react-reveal/Zoom\';\n```\n\nPlace the following code somewhere in your `render` method: \n\n```jsx\n<Zoom>\n  <p>Markup that will be revealed on scroll</p>\n</Zoom>\n```\n\nYou should see zooming animation that reveals text inside the tag. You can change this text to any JSX you want. If you place this code further down the page you\'ll see that it\'d appear as you scroll down.\n\n## Revealing React Components\n\nYou may just wrap your custom React component with the effect of your choosing like so:\n\n```jsx\n<Zoom>  \n  <CustomComponent />\n</Zoom>\n```\n\nIn such case, in the resulting `<CustomComponent />` HTML markup will be wrapped in a `div` tag. If you would rather have a different HTML tag then wrap `<CustomComponent />` in a tag of your choosing:\n\n```jsx\n<Zoom>\n  <section>\n    <CustomComponent />   \n  </section>\n</Zoom>\n```\n\nor if you want to customize `div` props:\n\n```jsx\n<Zoom>\n  <div className="some-class">\n    <CustomComponent />   \n  </div>\n</Zoom>\n```\n\n## Revealing Images\n\nIf you want to reveal an image you can wrap `img` tag with with the desired `react-reveal` effect:\n\n```jsx\n<Zoom>\n  <img height="300" width="400" src="https://source.unsplash.com/random/300x400" />\n</Zoom>\n```\n\nIt would be a very good idea to specify width and height of any image you wish to reveal.\n\n## Children\n\n`react-reveal` will attach a reveal effect to each child it gets. In other words,\n\n```jsx\n<Zoom>\n  <div>First Child</div>\n  <div>Second Child</div>\n</Zoom>\n```\n\nwill be equivalent to:\n\n```jsx\n<Zoom>\n  <div>First Child</div>\n</Zoom>\n<Zoom>\n  <div>Second Child</div>\n</Zoom>  \n```\n\nIf you don\'t want this to happen, you should wrap multiple children in a `div` tag:\n\n```jsx\n<Zoom>\n  <div>\n    <div>First Child</div>\n    <div>Second Child</div>\n  </div>\n</Zoom>\n```\n\n\n## Server Side Rendering\n\n`react-reveal` supports server side rendering out of the box. In some cases, when the javascript bundle arrives much later than the HTML&CSS it might cause a flickering. To prevent this `react-reveal` will not apply reveal effects on the initial load. \nAnother option is to apply gentle fadeout effect on the initial render. You can force it on all `react-reveal` elements by placing the following code somewhere near the entry point of your app:\n\n```jsx\nimport config from \'react-reveal/globals\';\n\nconfig({ ssrFadeout: true });\n```\n\nOr you you can do it on a per element basis using `ssrFadeout` prop:\n\n```jsx\n<Zoom ssrFadeout><h1>Content</h1></Zoom>\n```\n\nOne last option is to use `ssrReveal` prop. If enabled, this option will suppress both flickering and `ssrFadeout` effect. The unfortunate drawback of this option is that the revealed content will appear hidden to Googlebot and to anyone with javascript switched off. So it will makes sense for images and/or headings which are duplicated elsewhere on the page.\n\n## Forking This Package\n\nClone the this repository using the following command:\n\n```sh\ngit clone https://github.com/rnosov/react-reveal.git\n```\n\nIn the cloned directory, you can run following commands:\n\n```sh\nnpm install\n```\n\nInstalls required node modules\n\n```sh\nnpm run build\n```\n\nBuilds the package for production to the `dist` folder\n\n```sh\nnpm test\n```\n\nRuns tests\n\n## License\n\nCopyright © 2018 Roman Nosov. Project source code is licensed under the MIT license.\n',
+239 silly resolved     readmeFilename: 'README.md',
+239 silly resolved     _id: 'react-reveal@1.2.2',
+239 silly resolved     _shasum: 'f47fbc44debc4c185ae2163a215a9e822c7adfef',
+239 silly resolved     _from: 'react-reveal@',
+239 silly resolved     _resolved:
+239 silly resolved      'https://registry.npmjs.org/react-reveal/-/react-reveal-1.2.2.tgz' } ]
+240 info install react-reveal@1.2.2 into G:\Frontend\psd-to-html\kapora
+241 info installOne react-reveal@1.2.2
+242 info G:\Frontend\psd-to-html\kapora\node_modules\react-reveal unbuild
+243 verbose tar unpack C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package.tgz
+244 silly lockFile d3927b54-kapora-node-modules-react-reveal tar://G:\Frontend\psd-to-html\kapora\node_modules\react-reveal
+245 verbose lock tar://G:\Frontend\psd-to-html\kapora\node_modules\react-reveal C:\Users\Michał\AppData\Roaming\npm-cache\d3927b54-kapora-node-modules-react-reveal.lock
+246 silly lockFile afc58647-e-react-reveal-1-2-2-package-tgz tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package.tgz
+247 verbose lock tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package.tgz C:\Users\Michał\AppData\Roaming\npm-cache\afc58647-e-react-reveal-1-2-2-package-tgz.lock
+248 silly gunzTarPerm modes [ '755', '644' ]
+249 silly gunzTarPerm extractEntry package.json
+250 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+251 silly gunzTarPerm extractEntry .editorconfig
+252 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+253 silly gunzTarPerm extractEntry Animation.js
+254 silly gunzTarPerm modified mode [ 'Animation.js', 436, 420 ]
+255 silly gunzTarPerm extractEntry Bounce.js
+256 silly gunzTarPerm modified mode [ 'Bounce.js', 436, 420 ]
+257 silly gunzTarPerm extractEntry debounce.js
+258 silly gunzTarPerm modified mode [ 'debounce.js', 436, 420 ]
+259 silly gunzTarPerm extractEntry Fade.js
+260 silly gunzTarPerm modified mode [ 'Fade.js', 436, 420 ]
+261 silly gunzTarPerm extractEntry Flash.js
+262 silly gunzTarPerm modified mode [ 'Flash.js', 436, 420 ]
+263 silly gunzTarPerm extractEntry Flip.js
+264 silly gunzTarPerm modified mode [ 'Flip.js', 436, 420 ]
+265 silly gunzTarPerm extractEntry globals.js
+266 silly gunzTarPerm modified mode [ 'globals.js', 436, 420 ]
+267 silly gunzTarPerm extractEntry hamburger.js
+268 silly gunzTarPerm modified mode [ 'hamburger.js', 436, 420 ]
+269 silly gunzTarPerm extractEntry HamburgerIcon.js
+270 silly gunzTarPerm modified mode [ 'HamburgerIcon.js', 436, 420 ]
+271 silly gunzTarPerm extractEntry HeadShake.js
+272 silly gunzTarPerm modified mode [ 'HeadShake.js', 436, 420 ]
+273 silly gunzTarPerm extractEntry index.js
+274 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+275 silly gunzTarPerm extractEntry Jello.js
+276 silly gunzTarPerm modified mode [ 'Jello.js', 436, 420 ]
+277 silly gunzTarPerm extractEntry Jump.js
+278 silly gunzTarPerm modified mode [ 'Jump.js', 436, 420 ]
+279 silly gunzTarPerm extractEntry LICENSE.txt
+280 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 420 ]
+281 silly gunzTarPerm extractEntry LightSpeed.js
+282 silly gunzTarPerm modified mode [ 'LightSpeed.js', 436, 420 ]
+283 silly gunzTarPerm extractEntry makeCarousel.js
+284 silly gunzTarPerm modified mode [ 'makeCarousel.js', 436, 420 ]
+285 silly gunzTarPerm extractEntry Pulse.js
+286 silly gunzTarPerm modified mode [ 'Pulse.js', 436, 420 ]
+287 silly gunzTarPerm extractEntry README.md
+288 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+289 silly gunzTarPerm extractEntry responsive.js
+290 silly gunzTarPerm modified mode [ 'responsive.js', 436, 420 ]
+291 silly gunzTarPerm extractEntry Reveal.js
+292 silly gunzTarPerm modified mode [ 'Reveal.js', 436, 420 ]
+293 silly gunzTarPerm extractEntry RevealBase.js
+294 silly gunzTarPerm modified mode [ 'RevealBase.js', 436, 420 ]
+295 silly gunzTarPerm extractEntry Roll.js
+296 silly gunzTarPerm modified mode [ 'Roll.js', 436, 420 ]
+297 silly gunzTarPerm extractEntry Rotate.js
+298 silly gunzTarPerm modified mode [ 'Rotate.js', 436, 420 ]
+299 silly gunzTarPerm extractEntry RubberBand.js
+300 silly gunzTarPerm modified mode [ 'RubberBand.js', 436, 420 ]
+301 silly gunzTarPerm extractEntry Shake.js
+302 silly gunzTarPerm modified mode [ 'Shake.js', 436, 420 ]
+303 silly gunzTarPerm extractEntry Slide.js
+304 silly gunzTarPerm modified mode [ 'Slide.js', 436, 420 ]
+305 silly gunzTarPerm extractEntry Spin.js
+306 silly gunzTarPerm modified mode [ 'Spin.js', 436, 420 ]
+307 silly gunzTarPerm extractEntry Step.js
+308 silly gunzTarPerm modified mode [ 'Step.js', 436, 420 ]
+309 silly gunzTarPerm extractEntry Stepper.js
+310 silly gunzTarPerm modified mode [ 'Stepper.js', 436, 420 ]
+311 silly gunzTarPerm extractEntry Swing.js
+312 silly gunzTarPerm modified mode [ 'Swing.js', 436, 420 ]
+313 silly gunzTarPerm extractEntry swipedetect.js
+314 silly gunzTarPerm modified mode [ 'swipedetect.js', 436, 420 ]
+315 silly gunzTarPerm extractEntry Tada.js
+316 silly gunzTarPerm modified mode [ 'Tada.js', 436, 420 ]
+317 silly gunzTarPerm extractEntry throttle.js
+318 silly gunzTarPerm modified mode [ 'throttle.js', 436, 420 ]
+319 silly gunzTarPerm extractEntry withReveal.js
+320 silly gunzTarPerm modified mode [ 'withReveal.js', 436, 420 ]
+321 silly gunzTarPerm extractEntry Wobble.js
+322 silly gunzTarPerm modified mode [ 'Wobble.js', 436, 420 ]
+323 silly gunzTarPerm extractEntry wrap.js
+324 silly gunzTarPerm modified mode [ 'wrap.js', 436, 420 ]
+325 silly gunzTarPerm extractEntry Zoom.js
+326 silly gunzTarPerm modified mode [ 'Zoom.js', 436, 420 ]
+327 silly gunzTarPerm extractEntry src/Animation.js
+328 silly gunzTarPerm modified mode [ 'src/Animation.js', 436, 420 ]
+329 silly gunzTarPerm extractEntry src/in-and-out/Bounce.js
+330 silly gunzTarPerm modified mode [ 'src/in-and-out/Bounce.js', 436, 420 ]
+331 silly gunzTarPerm extractEntry src/in-and-out/Fade.js
+332 silly gunzTarPerm modified mode [ 'src/in-and-out/Fade.js', 436, 420 ]
+333 silly gunzTarPerm extractEntry src/in-and-out/Flip.js
+334 silly gunzTarPerm modified mode [ 'src/in-and-out/Flip.js', 436, 420 ]
+335 silly gunzTarPerm extractEntry src/in-and-out/LightSpeed.js
+336 silly gunzTarPerm modified mode [ 'src/in-and-out/LightSpeed.js', 436, 420 ]
+337 silly gunzTarPerm extractEntry src/in-and-out/Roll.js
+338 silly gunzTarPerm modified mode [ 'src/in-and-out/Roll.js', 436, 420 ]
+339 silly gunzTarPerm extractEntry src/in-and-out/Rotate.js
+340 silly gunzTarPerm modified mode [ 'src/in-and-out/Rotate.js', 436, 420 ]
+341 silly gunzTarPerm extractEntry src/in-and-out/Slide.js
+342 silly gunzTarPerm modified mode [ 'src/in-and-out/Slide.js', 436, 420 ]
+343 silly gunzTarPerm extractEntry src/in-and-out/Zoom.js
+344 silly gunzTarPerm modified mode [ 'src/in-and-out/Zoom.js', 436, 420 ]
+345 silly gunzTarPerm extractEntry src/lib/debounce.js
+346 silly gunzTarPerm modified mode [ 'src/lib/debounce.js', 436, 420 ]
+347 silly gunzTarPerm extractEntry src/lib/globals.js
+348 silly gunzTarPerm modified mode [ 'src/lib/globals.js', 436, 420 ]
+349 silly gunzTarPerm extractEntry src/lib/hamburger.js
+350 silly gunzTarPerm modified mode [ 'src/lib/hamburger.js', 436, 420 ]
+351 silly gunzTarPerm extractEntry src/lib/HamburgerIcon.js
+352 silly gunzTarPerm modified mode [ 'src/lib/HamburgerIcon.js', 436, 420 ]
+353 silly gunzTarPerm extractEntry src/lib/index.js
+354 silly gunzTarPerm modified mode [ 'src/lib/index.js', 436, 420 ]
+355 silly gunzTarPerm extractEntry src/lib/makeCarousel.js
+356 silly gunzTarPerm modified mode [ 'src/lib/makeCarousel.js', 436, 420 ]
+357 silly gunzTarPerm extractEntry src/lib/responsive.js
+358 silly gunzTarPerm modified mode [ 'src/lib/responsive.js', 436, 420 ]
+359 silly gunzTarPerm extractEntry src/lib/Step.js
+360 silly gunzTarPerm modified mode [ 'src/lib/Step.js', 436, 420 ]
+361 silly gunzTarPerm extractEntry src/lib/Stepper.js
+362 silly gunzTarPerm modified mode [ 'src/lib/Stepper.js', 436, 420 ]
+363 silly gunzTarPerm extractEntry src/lib/swipedetect.js
+364 silly gunzTarPerm modified mode [ 'src/lib/swipedetect.js', 436, 420 ]
+365 silly gunzTarPerm extractEntry src/lib/throttle.js
+366 silly gunzTarPerm modified mode [ 'src/lib/throttle.js', 436, 420 ]
+367 silly gunzTarPerm extractEntry src/lib/withReveal.js
+368 silly gunzTarPerm modified mode [ 'src/lib/withReveal.js', 436, 420 ]
+369 silly gunzTarPerm extractEntry src/lib/wrap.js
+370 silly gunzTarPerm modified mode [ 'src/lib/wrap.js', 436, 420 ]
+371 silly gunzTarPerm extractEntry src/Reveal.js
+372 silly gunzTarPerm modified mode [ 'src/Reveal.js', 436, 420 ]
+373 silly gunzTarPerm extractEntry src/RevealBase.js
+374 silly gunzTarPerm modified mode [ 'src/RevealBase.js', 436, 420 ]
+375 silly gunzTarPerm extractEntry src/simple/Flash.js
+376 silly gunzTarPerm modified mode [ 'src/simple/Flash.js', 436, 420 ]
+377 silly gunzTarPerm extractEntry src/simple/HeadShake.js
+378 silly gunzTarPerm modified mode [ 'src/simple/HeadShake.js', 436, 420 ]
+379 silly gunzTarPerm extractEntry src/simple/Jello.js
+380 silly gunzTarPerm modified mode [ 'src/simple/Jello.js', 436, 420 ]
+381 silly gunzTarPerm extractEntry src/simple/Jump.js
+382 silly gunzTarPerm modified mode [ 'src/simple/Jump.js', 436, 420 ]
+383 silly gunzTarPerm extractEntry src/simple/Pulse.js
+384 silly gunzTarPerm modified mode [ 'src/simple/Pulse.js', 436, 420 ]
+385 silly gunzTarPerm extractEntry src/simple/RubberBand.js
+386 silly gunzTarPerm modified mode [ 'src/simple/RubberBand.js', 436, 420 ]
+387 silly gunzTarPerm extractEntry src/simple/Shake.js
+388 silly gunzTarPerm modified mode [ 'src/simple/Shake.js', 436, 420 ]
+389 silly gunzTarPerm extractEntry src/simple/Spin.js
+390 silly gunzTarPerm modified mode [ 'src/simple/Spin.js', 436, 420 ]
+391 silly gunzTarPerm extractEntry src/simple/Swing.js
+392 silly gunzTarPerm modified mode [ 'src/simple/Swing.js', 436, 420 ]
+393 silly gunzTarPerm extractEntry src/simple/Tada.js
+394 silly gunzTarPerm modified mode [ 'src/simple/Tada.js', 436, 420 ]
+395 silly gunzTarPerm extractEntry src/simple/Wobble.js
+396 silly gunzTarPerm modified mode [ 'src/simple/Wobble.js', 436, 420 ]
+397 silly lockFile d3927b54-kapora-node-modules-react-reveal tar://G:\Frontend\psd-to-html\kapora\node_modules\react-reveal
+398 silly lockFile d3927b54-kapora-node-modules-react-reveal tar://G:\Frontend\psd-to-html\kapora\node_modules\react-reveal
+399 silly lockFile afc58647-e-react-reveal-1-2-2-package-tgz tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package.tgz
+400 silly lockFile afc58647-e-react-reveal-1-2-2-package-tgz tar://C:\Users\Michał\AppData\Roaming\npm-cache\react-reveal\1.2.2\package.tgz
+401 info preinstall react-reveal@1.2.2
+402 verbose readDependencies using package.json deps
+403 verbose readDependencies using package.json deps
+404 silly resolved []
+405 verbose about to build G:\Frontend\psd-to-html\kapora\node_modules\react-reveal
+406 info build G:\Frontend\psd-to-html\kapora\node_modules\react-reveal
+407 verbose linkStuff [ false,
+407 verbose linkStuff   false,
+407 verbose linkStuff   false,
+407 verbose linkStuff   'G:\\Frontend\\psd-to-html\\kapora\\node_modules' ]
+408 info linkStuff react-reveal@1.2.2
+409 verbose linkBins react-reveal@1.2.2
+410 verbose linkMans react-reveal@1.2.2
+411 verbose rebuildBundles react-reveal@1.2.2
+412 info install react-reveal@1.2.2
+413 info postinstall react-reveal@1.2.2
+414 error peerinvalid The package webpack does not satisfy its siblings' peerDependencies requirements!
+414 error peerinvalid Peer babel-loader@6.4.1 wants webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc
+414 error peerinvalid Peer chunk-manifest-webpack-plugin@0.1.0 wants webpack@^1.4.0-beta6
+414 error peerinvalid Peer friendly-errors-webpack-plugin@1.7.0 wants webpack@^2.0.0 || ^3.0.0 || ^4.0.0
+414 error peerinvalid Peer webpack-dev-middleware@1.12.2 wants webpack@^1.0.0 || ^2.0.0 || ^3.0.0
+414 error peerinvalid Peer webpack-dev-server@1.16.5 wants webpack@>=1.3.0 <3
+415 error System Windows_NT 10.0.17134
+416 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-reveal" "--save"
+417 error cwd G:\Frontend\psd-to-html\kapora
+418 error node -v v11.9.0
+419 error npm -v 1.4.9
+420 error code EPEERINVALID
+421 verbose exit [ 1, true ]

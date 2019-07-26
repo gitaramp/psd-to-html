@@ -1,0 +1,4 @@
+https://medium.com/@sumn2u/loading-third-party-library-in-reactjs-b01c049df8d5
+https://reactjs.org/docs/integrating-with-other-libraries.html
+
+do realizacji dodaæ jeszcze dwa-trzy kroki

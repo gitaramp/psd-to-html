@@ -5,6 +5,6 @@ module.exports = {
     keywords: 'projektowanie stron internetowych, nowoczesne strony',
     author: 'Michał Strzelec'
   },
-  pathPrefix: '/gatsby-bulma-default',
+  pathPrefix: '/psd-to-html/kapora',
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass'],
 }
